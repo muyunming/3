@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 //        initView();
         initWebView();
+        // test
     }
 
     @SuppressLint({"SetJavaScriptEnabled"})
