@@ -27,6 +27,7 @@
         list-style: none;
     }
 
+
     .clearfix:after,
     .clearfix:before {
         content: "";
@@ -60,8 +61,9 @@
     .container {
         width: 65%;
         height: 70%;
+        margin: 0 auto;
         position: relative;
-        left: 50%;
+        left: 44%;
         top: 50%;
         transform: translate(-50%,-50%);
         overflow: hidden;
@@ -101,56 +103,92 @@
     <ul class="clearfix">
         <a href="#">
             <li>
-                <div class="imgbox" id='0'><img src="./img/tubiao001.png" alt=""></div>
-                <div class="text">销售报表</div>
+                <div class="imgbox" id='0'><img src="./img/tubiao0007.png" alt=""></div>
+                <div class="text">工厂灯光</div>
             </li>
         </a>
         <li>
-            <div class="imgbox" id='1'><img src="./img/tubiao000.png" alt=""></div>
-            <div class="text"><a href="#">工厂环境</a></div>
+            <div class="imgbox" id='1'><img src="./img/tubiao0001.png" alt=""></div>
+            <div class="text"><a href="#">工厂空调</a></div>
         </li>
         <a href="#">
             <li>
-                <div class="imgbox" id='2'><img src="./img/tubiao0004.png" alt=""></div>
-                <div class="text">生产监控及修复</div>
+                <div class="imgbox" id='2'><img src="./img/tubiao0005.png" alt=""></div>
+                <div class="text">人才市场</div>
             </li>
         </a>
         <a href="#">
             <li>
-                <div class="imgbox" id='3'><img src="./img/tubiao0003.png" alt=""></div>
-                <div class="text">智能采购</div>
+                <div class="imgbox" id='3'><img src="./img/tubiao0006.png" alt=""></div>
+                <div class="text">自动补人</div>
             </li>
         </a>
     </ul>
     <ul class="clearfix">
         <a href="#">
             <li>
-                <div class="imgbox" id='4'><img src="./img/tubiao0008.png" alt=""></div>
-                <div class="text">成品车库</div>
+                <div class="imgbox" id='4'><img src="./img/tubiao0002.png" alt=""></div>
+                <div class="text">供货列表</div>
             </li>
         </a>
         <li>
-            <div class="imgbox" id='5'><img src="./img/tubiao000.png" alt=""></div>
-            <div class="text"><a href="#">车辆定制</a></div>
+            <div class="imgbox" id='5'><img src="./img/tubiao0003.png" alt=""></div>
+            <div class="text"><a href="#">购买原材料</a></div>
         </li>
         <li>
-            <div class="imgbox" id='6'><img src="./img/tubiao0002.png" alt=""></div>
-            <div class="text"><a href="#">生产过程监控</a></div>
+            <div class="imgbox" id='6'><img src="./img/tubiao0009.png" alt=""></div>
+            <div class="text"><a href="#">问题车辆仓库</a></div>
         </li>
         <li>
-            <div class="imgbox" id='7'><img src="./img/tubiao0005.png" alt=""></div>
-            <div class="text"><a href="#">人事管理</a></div>
+            <div class="imgbox" id='7'><img src="./img/tubiao0008.png" alt=""></div>
+            <div class="text"><a href="#">成品车辆仓库</a></div>
         </li>
     </ul>
 
 </div>
 
 <script>
-    document.getElementById('2').onclick = function () {
+    document.getElementById('0').onclick = function () {
         if(window.nativeMethod){
-            nativeMethod.startActivity();
+            nativeMethod.startActivity(0);
         }
     };
+    document.getElementById('1').onclick = function () {
+        if(window.nativeMethod){
+            nativeMethod.startActivity(1);
+        }
+    };
+    document.getElementById('2').onclick = function () {
+        if(window.nativeMethod){
+            nativeMethod.startActivity(2);
+        }
+    };
+    document.getElementById('3').onclick = function () {
+        if(window.nativeMethod){
+            nativeMethod.startActivity(3);
+        }
+    };
+    document.getElementById('4').onclick = function () {
+        if(window.nativeMethod){
+            nativeMethod.startActivity(4);
+        }
+    };
+    document.getElementById('5').onclick = function () {
+        if(window.nativeMethod){
+            nativeMethod.startActivity(5);
+        }
+    };
+    document.getElementById('6').onclick = function () {
+        if(window.nativeMethod){
+            nativeMethod.startActivity(6);
+        }
+    };
+    document.getElementById('7').onclick = function () {
+        if(window.nativeMethod){
+            nativeMethod.startActivity(7);
+        }
+    };
+
 
 </script>
 
